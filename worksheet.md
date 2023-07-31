@@ -11,12 +11,12 @@ Take a look at the two repositories:
 
 And answer the following questions about them:
 
-  * These repositories are at two different websites - github and bitbucket - what are these sites?  What service do they provide? Which is better?
-  * Who made the last commit to repository A?
-  * Who made the first commit to repository A?
-  * Who made the first and last commits to repository B?
-  * Are either/both of these projects active at the moment? 🤔 If not, what do you think happened?
-  * 🤔 Which file in each project has had the most activity?
+  * These repositories are at two different websites - github and bitbucket - what are these sites?  What service do they provide? Which is better? So, github has a better interface for going through commits and the files, bitbucket has at first a more user friendly layout but GitHub is the better option in terms of function and accessibility
+  * Who made the last commit to repository A? Matthew Roberts
+  * Who made the first commit to repository A? Jon Mountjoy
+  * Who made the first and last commits to repository B? Dave Pearce
+  * Are either/both of these projects active at the moment? 🤔 If not, what do you think happened? A was abandoned after a mystery exception, B hit release
+  * 🤔 Which file in each project has had the most activity? your mum get off my arse
 
 # Task 2
 
