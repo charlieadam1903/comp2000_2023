@@ -11,8 +11,8 @@ public class Main extends JFrame {
         }
         // @Override
          public void paint (Graphics g) {
-            Cell cell1 = new Cell(10, 10, Color.WHITE, Color.BLACK, 35);
-            cell1.paintCell(g);
+            Grid canvasGrid = new Grid (10, 710, 35);
+            canvasGrid.buildGrid(g);
         //     for (int i = 10; i < 710; i += 35 ) {
         //         for (int j = 10; j < 710; j += 35) {
         //             g.setColor(Color.WHITE);
@@ -54,7 +54,32 @@ public class Main extends JFrame {
     }
 
     class Grid {
+        int lowerLimit;
+        int upperLimit;
+        int increment;
         
+        
+
+        public Grid (int lower, int upper, int incr) {
+            this.lowerLimit = lower;
+            this.upperLimit = upper;
+            this.increment = incr;
+           
+
+        }
+        public void buildGrid(Graphics gr)  {
+            
+            
+            for(int i = lowerLimit; i < upperLimit; i += increment) {
+                for (int j = lowerLimit; j < upperLimit; j += increment) {
+                    Cell gridCells = new Cell(i, j, Color.WHITE, Color.BLACK, increment);
+                    gridCells.paintCell(gr);
+
+                }
+
+            }
+
+        }
     }
 
     private Main() {
